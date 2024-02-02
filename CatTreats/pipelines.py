@@ -76,7 +76,8 @@ class CattreatsPipeline:
         
         return item
     
-
+# if you want your data extracted to be put on your database, uncomment the 
+# "CatTreats.pipelines.ScrapeToSQL": 400, in the ITEM_PIPELINES in settings.py
 class ScrapeToSQL:
     
     # initially create the table to an existing database. 
@@ -84,8 +85,8 @@ class ScrapeToSQL:
         self.conn = mysql.connector.connect(
             host = 'localhost',
             user = 'root',
-            password = 'welcome123', #add your password here if you have one set 
-            database = 'ScrapingScrapy'
+            password = 'your my_sql database password', #add your password here if you have one set 
+            database = 'your_database'
         )
         
         # to execute commands
