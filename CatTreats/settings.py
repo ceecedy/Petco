@@ -13,7 +13,7 @@ SPIDER_MODULES = ["CatTreats.spiders"]
 NEWSPIDER_MODULE = "CatTreats.spiders"
 
 # Using scrapeops api and scrapeops library to automatically have a support proxy while running the spider script. 
-SCRAPEOPS_API_KEY = '9cbfc604-b66f-4e96-9fe2-35eaea82bda7'
+SCRAPEOPS_API_KEY = 'your_api' # signup at https://scrapeops.io
 SCRAPEOPS_PROXY_ENABLED = True
 
 # increasing the retry times in case there were failed request from the website. 
