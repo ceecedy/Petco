@@ -25,7 +25,7 @@ In my settings.py file, I've opted for faster scraping by setting ROBOTSTXT_OBEY
 
 
 ## Instructions on how to run: 
-To install, go to the official Python website page and to the downloads sections 
+You need Python compiler installed on your system. To install, go to the official Python website page and to the downloads sections 
 
 `Python Compiler - https://www.python.org/downloads`
 
