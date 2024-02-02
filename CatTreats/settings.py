@@ -22,12 +22,10 @@ RETRY_TIMES = 10
 DOWNLOAD_DELAY = 2.8
 
 # exporting both in csv and json format. 
-'''
 FEEDS = {
     'cattreatslist.json': {'format': 'json'},
     'cattreatslist.csv': {'format': 'csv'}
 }
-'''
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "CatTreats (+http://www.yourdomain.com)"
