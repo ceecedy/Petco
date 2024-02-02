@@ -1,5 +1,4 @@
 # Petco Web Scraping Assessment
-Follow the steps to run this Scrapy File. 
 
 ## Web-Scraping Strategy: 
 
