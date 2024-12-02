@@ -1,4 +1,4 @@
-# Petco Web Scraping Assessment
+# Petco Web Scraping Project
 
 ## Web-Scraping Strategy: 
 
